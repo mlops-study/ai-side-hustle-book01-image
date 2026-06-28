@@ -1,5 +1,7 @@
 # AI로 나만의 수입 만들기: Icon Pack Edition
 
+<img src="images/front_cover.png" width="400"/>
+
 이 저장소는 **『AI로 나만의 수입 만들기: Icon Pack Edition』** 도서의 실습 파일과 보조 자료를 제공합니다.
 
 책을 읽으면서 각 장의 명령어를 복사해 바로 실행할 수 있도록 구성되어 있습니다.
@@ -19,6 +21,13 @@
 │   ├── Chapter_06/          # 팔리는 이미지 만들기 — 상업용 품질 기준
 │   └── Chapter_07/          # AI 이미지로 수익 만들기 — 판매 플랫폼 완전 정복
 ├── appendix/                # 부록 PDF (환경 설정 가이드)
+│   ├── 부록 A. 터미널 시작하기.pdf
+│   ├── 부록 B. 텍스트 에디터로 파일 만들기.pdf
+│   ├── 부록 C. Claude.ai 채팅 사용하기.pdf
+│   ├── 부록 D. Claude Code 설치하기.pdf
+│   ├── 부록 E. Claude Code 기본 사용법.pdf
+│   ├── 부록 F. Windows 사용자를 위한 ComfyUI 대체 환경.pdf
+│   └── 부록 G. Python 설치하기 (pyenv).pdf
 └── remove_background.py     # 배경 투명화 스크립트
 ```
 
@@ -105,3 +114,10 @@ python remove_background.py input.png --output ./output/result.png
 | `x/flux2-klein:4b` | 이미지 생성 (상업용) | Apache 2.0 |
 | `x/flux2-klein:9b` | 이미지 생성 (고품질, 연습용) | 비상업용 |
 | `qwen3.5:4b` | 한글 → 영어 프롬프트 번역 | - |
+
+---
+
+## 저자
+
+- **김남기** — 카카오뱅크 AI 엔지니어, 『MLOps 구축 가이드북』 저자. 
+- 📧 mlops.study@gmail.com
